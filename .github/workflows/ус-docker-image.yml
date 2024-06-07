@@ -1,4 +1,4 @@
-name: Docker Image CI to YC
+name: Docker Image CI to YC!
 
 on:
   push:
