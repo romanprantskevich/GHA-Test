@@ -3,7 +3,7 @@ FROM busybox:latest
 COPY --chmod=755 <<EOF /app/run.sh
 #!/bin/sh
 while true; do
-  echo -ne "The time in NSK is now (test after WT) $(date +%T)\\r"
+  echo -ne "The time in NSK is now (test-01) $(date +%T)\\r"
   sleep 1
 done
 EOF
