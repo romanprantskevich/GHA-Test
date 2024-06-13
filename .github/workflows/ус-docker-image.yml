@@ -2,7 +2,7 @@ name: Docker Image CI to YC!
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "GA-Action-Branch-1" ]
 
 jobs:
 
