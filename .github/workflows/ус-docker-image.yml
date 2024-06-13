@@ -3,8 +3,6 @@ name: Docker Image CI to YC!
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
 
